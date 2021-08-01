@@ -1,0 +1,60 @@
+
+figma-web-page{
+    background: rgb(207, 238, 136);
+}
+
+/* Title */
+figma-title-text{
+    position: absolute;
+    width: 276px;
+    height: 34px;
+    left: 19px;
+    top: 21px;
+}
+
+figma-title-text{
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 38px;
+    line-height: 45px;
+    color: #FF51D9;
+}
+
+/* This is some text for description */ 
+figma-description{
+    position: absolute;
+    width: 134px;
+    height: 38px;
+    left: 365px;
+    top: 134px;
+}
+figma-description-text{
+    font-family: Elsie;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 15px;
+    color: #899DD2;
+}
+
+figma-text-area{
+    position: absolute;
+    width: 84px;
+    height: 108px;
+    left: 459px;
+    top: 188px;
+}
+
+figma-text{
+    font-family: Bilbo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #F97070;
+}
+
