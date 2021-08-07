@@ -1,6 +1,14 @@
 
+body {
+    background-color: rgb(207, 238, 136);
+    position: sticky;
+}
+
 .figma-web-page{
-    background: rgb(207, 238, 136);
+    background-color:rgb(207, 238, 136);
+    width: 524px;
+    height: 275px; 
+    padding: 21px 46px 48px 19px;
 }
 
 /* Title */
@@ -8,8 +16,8 @@
     position: absolute;
     width: 276px;
     height: 34px;
-    left: 19px;
-    top: 21px;
+    left: 143px;
+    top: 105px;
 }
 
 .figma-title-text{
@@ -24,10 +32,10 @@
 /* This is some text for description */ 
 .figma-description{
     position: absolute;
-    width: 134px;
-    height: 38px;
-    left: 365px;
-    top: 134px;
+    width: 144px;
+    height: 59px;
+    left: 855px;
+    top: 425px;
 }
 
 .figma-description-text{
@@ -37,14 +45,23 @@
     font-size: 13px;
     line-height: 15px;
     color: #899DD2;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.figma-description-text-color{
+    color: #899DD2;
+}
+
+.figma-description-text-shadow{
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .figma-text-area{
     position: absolute;
     width: 84px;
     height: 108px;
-    left: 459px;
-    top: 188px;
+    left: 1183px;
+    top: 651px;
 }
 
 .figma-text{
@@ -57,5 +74,14 @@
     align-items: center;
     text-align: center;
     color: #F97070;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.figma-text-color{
+    color: #F97070;
+}
+
+.figma-text-shadow{
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 

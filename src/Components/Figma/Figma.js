@@ -3,6 +3,7 @@ import React from 'react';
 
 /* CSS Files */
 import '../../CSS/figma.css';
+import '../../index.css';
 
 function Figma() {
     return(
@@ -13,14 +14,22 @@ function Figma() {
                 </h1>
             </div>
             <div className={"figma-description"}>
-                <p className={"figma-description-text"}>
-                This is some text for description
-                </p>
+                <div className={"figma-description-text"}>
+                    <div className={"figma-description-text-color"}>
+                        <div className={"figma-description-text-shadow"}>
+                            <p>This is some text for description</p>
+                        </div>
+                    </div>
+                </div>
             </div>
             <div className={"figma-text-area"}>
-                <p className={"figma-text"}>
-                This is some text here 
-                </p>
+                <div className={"figma-text"}>
+                    <div className={"figma-text-color"}>
+                        <div className={"figma-text-color"}>
+                        <p className={"figma-text"}> This is some text here </p>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     )
